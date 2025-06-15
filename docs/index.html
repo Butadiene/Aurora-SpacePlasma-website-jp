@@ -1,200 +1,274 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>オーロラ・宇宙プラズマ学習サイト</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
-        h1, h2, h3 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-        h1 { font-size: 2.5em; text-align: center; border: none; }
-        h2 { font-size: 2em; margin-top: 40px; }
-        h3 { font-size: 1.5em; border-bottom: 1px solid #ccc; }
-        nav { background-color: #3498db; padding: 15px; text-align: center; border-radius: 8px; margin-bottom: 30px; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
-        a { color: #2980b9; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .container { background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .book-item { border: 1px solid #ddd; border-radius: 5px; padding: 15px; margin-bottom: 15px; }
-        .book-item h4 { margin-top: 0; }
-        .workflow-step { background-color: #ecf0f1; border-left: 5px solid #3498db; padding: 20px; margin-top: 20px; }
-        .lab-list ul { list-style-type: none; padding-left: 0; }
-        .lab-list li { background-color: #f8f9f9; margin-bottom: 10px; padding: 12px; border-radius: 4px; border-left: 3px solid #bdc3c7; }
-        .lab-list b { font-size: 1.1em; display: block; margin-bottom: 5px; color: #34495e;}
-        footer { text-align: center; margin-top: 40px; color: #777; font-size: 0.9em; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>オーロラ・宇宙プラズマ学習サイト</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
+h1, h2, h3 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+h1 { font-size: 2.5em; text-align: center; border: none; }
+h2 { font-size: 2em; margin-top: 40px; }
+h3 { font-size: 1.5em; border-bottom: 1px solid #ccc; }
+nav { background-color: #3498db; padding: 15px; text-align: center; border-radius: 8px; margin-bottom: 30px; }
+nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+a { color: #2980b9; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { background-color: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+.book-item { border: 1px solid #ddd; border-radius: 5px; padding: 15px; margin-bottom: 15px; }
+.book-item h4 { margin-top: 0; }
+.workflow-step { background-color: #ecf0f1; border-left: 5px solid #3498db; padding: 20px; margin-top: 20px; }
+.lab-list ul { list-style-type: none; padding-left: 0; }
+.lab-list li { background-color: #f8f9f9; margin-bottom: 10px; padding: 12px; border-radius: 4px; border-left: 3px solid #bdc3c7; }
+.lab-list b { font-size: 1.1em; display: block; margin-bottom: 5px; color: #34495e;}
+footer { text-align: center; margin-top: 40px; color: #777; font-size: 0.9em; }
+</style>
 </head>
 <body>
 
-    <header>
-        <h1>🚀 オーロラ・宇宙プラズマ学習サイト</h1>
-    </header>
+<header>
+    <h1>🚀 オーロラ・宇宙プラズマ学習サイト</h1>
+</header>
 
-    <nav>
-        <a href="#labs">研究室リスト</a>
-        <a href="#textbooks">教科書ガイド</a>
-        <a href="#workflow">学習フロー</a>
-        <a href="#societies">学会リスト</a>
-    </nav>
+<nav>
+    <a href="#labs">研究室リスト</a>
+    <a href="#textbooks">教科書ガイド</a>
+    <a href="#workflow">学習フロー</a>
+    <a href="#websites">Webサイト</a>
+    <a href="#spaceweather">宇宙天気関連</a>
+    <a href="#societies">学会リスト</a>
+</nav>
 
-    <div class="container">
-        <section id="about">
-            <h2>ようこそ！</h2>
-            <p>このサイトは、オーロラや宇宙プラズマに興味を持つ学生や研究者に向けて、学習に役立つ情報をまとめたものです。国内の主要な研究室から、ステップアップのための教科書、おすすめの学習順序、関連学会まで、この分野を探求するための羅針盤となることを目指しています。</p>
-        </section>
+<div class="container">
+    <section id="about">
+        <h2>ようこそ！</h2>
+        <p>このサイトは、オーロラや宇宙プラズマに興味を持つ学生や研究者に向けて、学習に役立つ情報をまとめたものです。国内の主要な研究室から、ステップアップのための教科書、おすすめの学習順序、関連学会まで、この分野を探求するための羅針盤となることを目指しています。</p>
+    </section>
 
-        <section id="labs">
-            <h2>🏢 国内主要大学研究室リスト</h2>
-            <p>各研究室名から公式サイトへリンクしています。（2025年若手会名簿準拠）</p>
-            <div class="lab-list">
-                <ul>
-                    <li><b>電気通信大学</b>
-                        <a href="http://gwave.cei.uec.ac.jp/" target="_blank">細川研究室</a>, 
-                        <a href="http://ttt01.cei.uec.ac.jp" target="_blank">津田研究室</a>
-                    </li>
-                    <li><b>北海道大学</b>
-                        <a href="https://www.ep.sci.hokudai.ac.jp/~psg/index.html" target="_blank">理学院宇宙理学専攻 惑星宇宙グループ</a>
-                    </li>
-                    <li><b>金沢大学</b>
-                        <a href="https://www-cie.is.t.kanazawa-u.ac.jp" target="_blank">通信情報工学研究室</a>
-                    </li>
-                    <li><b>京都大学</b>
-                        <a href="https://www.rish.kyoto-u.ac.jp/mu/" target="_blank">宇宙電波工学分野</a>, 
-                        <a href="http://www-step.kugi.kyoto-u.ac.jp/" target="_blank">太陽惑星系電磁気学講座 (SPEL)</a>
-                    </li>
-                    <li><b>九州大学</b>
-                        <a href="https://www.esst.kyushu-u.ac.jp/~space/" target="_blank">宇宙流体環境学研究室</a>, 
-                        <a href="http://denji102.geo.kyushu-u.ac.jp/" target="_blank">宇宙地球電磁気学研究室</a>
-                    </li>
-                    <li><b>九州工業大学</b>
-                        <a href="https://sael-lab.com/" target="_blank">SAEL 寺本研究室</a>
-                    </li>
-                    <li><b>明治大学</b>
-                        <a href="https://www.isc.meiji.ac.jp/~suzuhide/index.html" target="_blank">地球‧惑星大気物理研究室</a>
-                    </li>
-                    <li><b>名古屋大学</b>
-                        <a href="https://stsw1.isee.nagoya-u.ac.jp" target="_blank">太陽圏研究部 (SW研究室)</a>, 
-                        <a href="https://is.isee.nagoya-u.ac.jp/miyoshilab/" target="_blank">総合解析研究部</a>, 
-                        <a href="http://stdb2.isee.nagoya-u.ac.jp/member/shiokawa/" target="_blank">塩川研究室</a>
-                    </li>
-                    <li><b>立教大学</b>
-                        <a href="https://sites.google.com/rikkyo.ac.jp/astro-planet/home" target="_blank">宇宙地球研究室</a>
-                    </li>
-                    <li><b>東北大学</b>
-                        <a href="https://stpp.gp.tohoku.ac.jp/" target="_blank">宇宙地球電磁気学分野 (STPP)</a>,
-                        <a href="https://pat.gp.tohoku.ac.jp/" target="_blank">惑星大気物理学分野</a>, 
-                        <a href="https://pparc.gp.tohoku.ac.jp/" target="_blank">惑星プラズマ‧大気研究センター (PPARC)</a>
-                    </li>
-                    <li><b>東京大学</b>
-                        <a>本郷キャンパス 関研究室</a>, 
-                        <a href="https://www.astrobio.k.u-tokyo.ac.jp/yoshikawa/" target="_blank">(柏)吉川‧吉岡研究室</a>,
-                        <a href="https://www.astrobio.k.u-tokyo.ac.jp/imamura/" target="_blank">(柏)今村‧⻘木研究室</a>
-                    </li>
-                    <li><b>東京理科大学</b>
-                        <a href="https://dept.tus.ac.jp/tomoki-kimura/" target="_blank">木村研究室</a>
-                    </li>
-                    <li><b>JAXA/ISAS</b>
-                        <a>宇宙科学研究所 宇宙プラズマグループ</a>
-                    </li>
-                    <li><b>総合研究大学院大学</b>
-                        <a href="https://www.nipr.ac.jp/soken/" target="_blank">物理科学研究科 宇宙科学専攻 (極地研)</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
+    <section id="labs">
+        <h2>🏢 国内主要大学研究室リスト</h2>
+        <p>各研究室名から公式サイトへリンクしています。（2025年若手会名簿準拠）</p>
+        <div class="lab-list">
+            <ul>
+                <li><b>電気通信大学</b>
+                    <a href="[http://gwave.cei.uec.ac.jp/](http://gwave.cei.uec.ac.jp/)" target="_blank">細川研究室</a>, 
+                    <a href="[http://ttt01.cei.uec.ac.jp](http://ttt01.cei.uec.ac.jp)" target="_blank">津田研究室</a>
+                </li>
+                <li><b>北海道大学</b>
+                    <a href="[https://www.ep.sci.hokudai.ac.jp/~psg/index.html](https://www.ep.sci.hokudai.ac.jp/~psg/index.html)" target="_blank">理学院宇宙理学専攻 惑星宇宙グループ</a>
+                </li>
+                <li><b>金沢大学</b>
+                    <a href="[https://www-cie.is.t.kanazawa-u.ac.jp](https://www-cie.is.t.kanazawa-u.ac.jp)" target="_blank">通信情報工学研究室</a>
+                </li>
+                <li><b>京都大学</b>
+                    <a href="[https://www.rish.kyoto-u.ac.jp/mu/](https://www.rish.kyoto-u.ac.jp/mu/)" target="_blank">宇宙電波工学分野</a>, 
+                    <a href="[http://www-step.kugi.kyoto-u.ac.jp/](http://www-step.kugi.kyoto-u.ac.jp/)" target="_blank">太陽惑星系電磁気学講座 (SPEL)</a>
+                </li>
+                <li><b>九州大学</b>
+                    <a href="[https://www.esst.kyushu-u.ac.jp/~space/](https://www.esst.kyushu-u.ac.jp/~space/)" target="_blank">宇宙流体環境学研究室</a>, 
+                    <a href="[http://denji102.geo.kyushu-u.ac.jp/](http://denji102.geo.kyushu-u.ac.jp/)" target="_blank">宇宙地球電磁気学研究室</a>
+                </li>
+                <li><b>九州工業大学</b>
+                    <a href="[https://sael-lab.com/](https://sael-lab.com/)" target="_blank">SAEL 寺本研究室</a>
+                </li>
+                <li><b>明治大学</b>
+                    <a href="[https://www.isc.meiji.ac.jp/~suzuhide/index.html](https://www.isc.meiji.ac.jp/~suzuhide/index.html)" target="_blank">地球‧惑星大気物理研究室</a>
+                </li>
+                <li><b>名古屋大学</b>
+                    <a href="[https://stsw1.isee.nagoya-u.ac.jp](https://stsw1.isee.nagoya-u.ac.jp)" target="_blank">太陽圏研究部 (SW研究室)</a>, 
+                    <a href="[https://is.isee.nagoya-u.ac.jp/miyoshilab/](https://is.isee.nagoya-u.ac.jp/miyoshilab/)" target="_blank">総合解析研究部</a>, 
+                    <a href="[http://stdb2.isee.nagoya-u.ac.jp/member/shiokawa/](http://stdb2.isee.nagoya-u.ac.jp/member/shiokawa/)" target="_blank">塩川研究室</a>
+                </li>
+                <li><b>立教大学</b>
+                    <a href="[https://sites.google.com/rikkyo.ac.jp/astro-planet/home](https://sites.google.com/rikkyo.ac.jp/astro-planet/home)" target="_blank">宇宙地球研究室</a>
+                </li>
+                <li><b>東北大学</b>
+                    <a href="[https://stpp.gp.tohoku.ac.jp/](https://stpp.gp.tohoku.ac.jp/)" target="_blank">宇宙地球電磁気学分野 (STPP)</a>,
+                    <a href="[https://pat.gp.tohoku.ac.jp/](https://pat.gp.tohoku.ac.jp/)" target="_blank">惑星大気物理学分野</a>, 
+                    <a href="[https://pparc.gp.tohoku.ac.jp/](https://pparc.gp.tohoku.ac.jp/)" target="_blank">惑星プラズマ‧大気研究センター (PPARC)</a>
+                </li>
+                <li><b>東京大学</b>
+                    本郷キャンパス 関研究室, 
+                    <a href="[https://www.astrobio.k.u-tokyo.ac.jp/yoshikawa/](https://www.astrobio.k.u-tokyo.ac.jp/yoshikawa/)" target="_blank">(柏)吉川‧吉岡研究室</a>,
+                    <a href="[https://www.astrobio.k.u-tokyo.ac.jp/imamura/](https://www.astrobio.k.u-tokyo.ac.jp/imamura/)" target="_blank">(柏)今村‧⻘木研究室</a>
+                </li>
+                <li><b>東京理科大学</b>
+                    <a href="[https://dept.tus.ac.jp/tomoki-kimura/](https://dept.tus.ac.jp/tomoki-kimura/)" target="_blank">木村研究室</a>
+                </li>
+                <li><b>JAXA/ISAS</b>
+                    宇宙科学研究所 宇宙プラズマグループ
+                </li>
+                <li><b>総合研究大学院大学</b>
+                    <a href="[https://www.nipr.ac.jp/soken/](https://www.nipr.ac.jp/soken/)" target="_blank">物理科学研究科 宇宙科学専攻 (極地研)</a>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-        <section id="textbooks">
-            <h2>📚 難易度別 教科書ガイド</h2>
-            
-            <h3>📖 一般向け入門用</h3>
-            <div class="book-item">
-                <h4>『総説 宇宙天気』(柴田一成・上出洋介 編著)</h4>
-                <p>宇宙天気に関連する現象を幅広く解説。長大なため、興味のある部分から読むのがおすすめ。</p>
-            </div>
-            <div class="book-item">
-                <h4>『太陽地球系科学』(地球電磁気・地球惑星圏学会 学校教育WG 編)</h4>
-                <p>太陽から地球磁場、ダイナモまで広く扱っており、研究テーマを探す際の参考になる。</p>
-            </div>
-            <div class="book-item">
-                <h4>『オーロラの話をしましょう』(赤祖父 俊一 著)</h4>
-                <p>オーロラ研究の世界的権威による一般向け解説書。研究の歴史と最前線がわかる。</p>
-            </div>
+    <section id="textbooks">
+        <h2>📚 難易度別 教科書ガイド</h2>
+        
+        <h3>📖 一般向け入門用</h3>
+        <div class="book-item">
+            <h4>『総説 宇宙天気』(柴田一成・上出洋介 編著)</h4>
+            <p>宇宙天気に関連する現象を幅広く解説。長大なため、興味のある部分から読むのがおすすめ。</p>
+        </div>
+        <div class="book-item">
+            <h4>『太陽地球系科学』(地球電磁気・地球惑星圏学会 学校教育WG 編)</h4>
+            <p>太陽から地球磁場、ダイナモまで広く扱っており、研究テーマを探す際の参考になる。</p>
+        </div>
+        <div class="book-item">
+            <h4>『オーロラの話をしましょう』(赤祖父 俊一 著)</h4>
+            <p>オーロラ研究の世界的権威による一般向け解説書。研究の歴史と最前線がわかる。</p>
+        </div>
 
-            <h3>📘 プラズマ物理入門者向け</h3>
-            <div class="book-item">
-                <h4><i>Basic Space Plasma Physics</i> (W. Baumjohann & R. A. Treumann)</h4>
-                <p>宇宙プラズマ物理の基礎を網羅している定番教科書。</p>
-            </div>
-            <div class="book-item">
-                <h4>『太陽地球圏』(小野高幸・三好由純 著)</h4>
-                <p>太陽、地球磁気圏、プラズマ物理の基礎を日本語でバランス良く学べる。</p>
-            </div>
-            <div class="book-item">
-                <h4>『プラズマ物理入門』(F. F. Chen 著, 内田岱二郎 訳)</h4>
-                <p>プラズマ物理の非常に分かりやすいと評判の世界的名著。物理的直感を養うのに最適。</p>
-            </div>
+        <h3>📘 プラズマ物理入門者向け</h3>
+        <div class="book-item">
+            <h4><i>Basic Space Plasma Physics</i> (W. Baumjohann & R. A. Treumann)</h4>
+            <p>宇宙プラズマ物理の基礎を網羅している定番教科書。</p>
+        </div>
+        <div class="book-item">
+            <h4>『太陽地球圏』(小野高幸・三好由純 著)</h4>
+            <p>太陽、地球磁気圏、プラズマ物理の基礎を日本語でバランス良く学べる。</p>
+        </div>
+        <div class="book-item">
+            <h4>『プラズマ物理入門』(F. F. Chen 著, 内田岱二郎 訳)</h4>
+            <p>プラズマ物理の非常に分かりやすいと評判の世界的名著。物理的直感を養うのに最適。</p>
+        </div>
 
-            <h3>📙 中級者以上向け専門書</h3>
-            <div class="book-item">
-                <h4><a href="https://www.isee.nagoya-u.ac.jp/news/2021/%E5%A4%AA%E9%99%BD%E5%9C%B0%E7%90%83%E5%9C%8F%E7%92%B0%E5%A2%83%E4%BA%88%E6%B8%AC-%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%BB%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%83%96%E3%83%83%E3%82%AF-pstep-op.html" target="_blank">『太陽地球圏環境予測 オープン・テキストブック』(PSTEPプロジェクト)</a></h4>
-                <p>各分野の第一人者が執筆。学部の教科書と論文をつなぐレベルで、研究の概観把握に最適。無料公開。</p>
-            </div>
-             <div class="book-item">
-                <h4><a href="https://www.nipr.ac.jp/library/NIPR-E-library/" target="_blank">『オーロラ物理学シリーズ』(極地研電子ライブラリー)</a></h4>
-                <p>磁気圏やオーロラについて、より専門的に解説した日本語の教科書シリーズ。無料で公開。</p>
-            </div>
-            <div class="book-item">
-                <h4>『宇宙電磁流体力学の基礎』(柴田 一成 他)</h4>
-                <p>MHD（磁気流体力学）を日本語で学べる貴重な一冊。太陽や降着円盤など具体例が豊富。</p>
-            </div>
-             <div class="book-item">
-                <h4><i>Waves in Plasmas</i> (Thomas Howard Stix)</h4>
-                <p>プラズマ中の波動について、数学的・物理的に詳しく解説された専門書。難易度高め。</p>
-            </div>
-        </section>
+        <h3>📙 中級者以上向け専門書</h3>
+        <div class="book-item">
+            <h4><a href="[https://www.isee.nagoya-u.ac.jp/news/2021/%E5%A4%AA%E9%99%BD%E5%9C%B0%E7%90%83%E5%9C%8F%E7%92%B0%E5%A2%83%E4%BA%88%E6%B8%AC-%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%BB%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%83%96%E3%83%83%E3%82%AF-pstep-op.html](https://www.isee.nagoya-u.ac.jp/news/2021/%E5%A4%AA%E9%99%BD%E5%9C%B0%E7%90%83%E5%9C%8F%E7%92%B0%E5%A2%83%E4%BA%88%E6%B8%AC-%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%83%BB%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%83%96%E3%83%83%E3%82%AF-pstep-op.html)" target="_blank">『太陽地球圏環境予測 オープン・テキストブック』(PSTEPプロジェクト)</a></h4>
+            <p>各分野の第一人者が執筆。学部の教科書と論文をつなぐレベルで、研究の概観把握に最適。無料公開。</p>
+        </div>
+         <div class="book-item">
+            <h4><a href="[https://www.nipr.ac.jp/library/NIPR-E-library/](https://www.nipr.ac.jp/library/NIPR-E-library/)" target="_blank">『オーロラ物理学シリーズ』(極地研電子ライブラリー)</a></h4>
+            <p>磁気圏やオーロラについて、より専門的に解説した日本語の教科書シリーズ。無料で公開。</p>
+        </div>
+        <div class="book-item">
+            <h4>『宇宙電磁流体力学の基礎』(柴田 一成 他)</h4>
+            <p>MHD（磁気流体力学）を日本語で学べる貴重な一冊。太陽や降着円盤など具体例が豊富。</p>
+        </div>
+         <div class="book-item">
+            <h4><i>Waves in Plasmas</i> (Thomas Howard Stix)</h4>
+            <p>プラズマ中の波動について、数学的・物理的に詳しく解説された専門書。難易度高め。</p>
+        </div>
+        <div class="book-item">
+            <h4><i>The Physics of Alfven Waves</i> (Neil F. Crammer)</h4>
+            <p>Alfven波の性質(分散関係など)を中心に解説した英語の専門書。</p>
+        </div>
+        <div class="book-item">
+            <h4>『核融合のためのプラズマ物理』 (宮本 健郎)</h4>
+            <p>核融合に関わるプラズマ物理を比較的わかりやすく解説。核融合向けとはいえ、ランダウ減衰等の導出を比較的丁寧に書いており、宇宙プラズマの研究者にとっても大いに参考になる。</p>
+        </div>
+        <div class="book-item">
+            <h4><i>Plasma Physics for Astrophysics</i> (Russel Kulsrud)</h4>
+            <p>プラズマ物理の入門書。MHDから運動論まで、天体物理学への応用を念頭に解説されている。</p>
+        </div>
+        <div class="book-item">
+            <h4><i>Advanced Space Plasma Physics</i> (Rudolf A. Treumann & Wolfgang Baumjohann)</h4>
+            <p><i>Basic Space Plasma Physics</i>の続編。線形理論から非線形理論まで、より進んだトピックを扱う。</p>
+        </div>
+        <div class="book-item">
+            <h4><i>Introduction to Plasma Physics: With Space, Laboratory and Astrophysical Applications</i> (Donald A. Gurnett & A. Bhattacharjee)</h4>
+            <p>丁寧な説明と、段階的な式の導出が特徴。宇宙・実験室・天体物理プラズマへの応用を網羅しており、学部上級から大学院レベルの教科書として評価が高い。</p>
+        </div>
+        <div class="book-item">
+            <h4><i>PRINCIPLES OF MAGNETOHYDRODYNAMICS</i> (J. P. GOEDBLOED)</h4>
+            <p>MHDを学ぶための定番書。続編<i>Advanced Magnetohydrodynamics</i>と合本になった新装版<i>Magnetohydrodynamics of Laboratory and Astrophysical Plasmas (2019)</i>も出版されている。</p>
+        </div>
+        <div class="book-item">
+            <h4><i>Plasma Confinement</i> (R. Hazeltine and J. Meiss)</h4>
+            <p>核融合プラズマの分野で広く読まれている教科書。Drift KineticsやGyrokineticsなどの簡約化モデルの導出や、磁気面を持つ系でのプラズマ物理の手法が学べる。</p>
+        </div>
+        <div class="book-item">
+            <h4>『プラズマシミュレーション』 (プラズマ・核融合学会)</h4>
+            <p>数値計算の観点からプラズマ物理を解説。プラズマと数値計算の基礎から、代表的なシミュレーション手法までを学ぶことができる。</p>
+        </div>
+    </section>
 
-        <section id="workflow">
-            <h2>🗺️ おすすめ学習ワークフロー</h2>
-            <div class="workflow-step">
-                <h3>Step 1: 学部生・初学者</h3>
-                <ol>
-                    <li><b>全体像の把握</b>: 『総説 宇宙天気』や『太陽地球系科学』を読み、この分野でどのような現象が研究されているのかを知る。</li>
-                    <li><b>基礎固め</b>: 『プラズマ物理入門』や『太陽地球圏』で、プラズマ物理と太陽地球系科学の基礎をしっかり学ぶ。</li>
-                </ol>
-            </div>
-            <div class="workflow-step">
-                <h3>Step 2: 大学院生・研究テーマ探し</h3>
-                <ol>
-                    <li><b>専門知識の深化</b>: 『太陽地球圏環境予測 オープン・テキストブック』や『オーロラ物理学シリーズ』で、興味のある分野のより詳細な知識を深める。</li>
-                    <li><b>英語の専門書に挑戦</b>: <i>Basic Space Plasma Physics</i> を読み通し、英語の専門用語に慣れる。興味に応じてMHD、波動などの専門書に進む。</li>
-                </ol>
-            </div>
-            <div class="workflow-step">
-                <h3>Step 3: 専門研究へ</h3>
-                <ol>
-                    <li><b>論文調査</b>: 関連分野の最新論文を読み、研究の最前線を把握する。</li>
-                    <li><b>学会参加</b>: 下記の学会に参加し、自身の研究成果を発表したり、他の研究者と議論したりして研究を発展させる。</li>
-                </ol>
-            </div>
-        </section>
+    <section id="workflow">
+        <h2>🗺️ おすすめ学習ワークフロー</h2>
+        <div class="workflow-step">
+            <h3>Step 1: 学部生・初学者</h3>
+            <ol>
+                <li><b>全体像の把握</b>: 『総説 宇宙天気』や『太陽地球系科学』を読み、この分野でどのような現象が研究されているのかを知る。</li>
+                <li><b>基礎固め</b>: 『プラズマ物理入門』や『太陽地球圏』で、プラズマ物理と太陽地球系科学の基礎をしっかり学ぶ。</li>
+            </ol>
+        </div>
+        <div class="workflow-step">
+            <h3>Step 2: 大学院生・研究テーマ探し</h3>
+            <ol>
+                <li><b>専門知識の深化</b>: 『太陽地球圏環境予測 オープン・テキストブック』や『オーロラ物理学シリーズ』で、興味のある分野のより詳細な知識を深める。</li>
+                <li><b>英語の専門書に挑戦</b>: <i>Basic Space Plasma Physics</i> を読み通し、英語の専門用語に慣れる。興味に応じてMHD、波動などの専門書に進む。</li>
+            </ol>
+        </div>
+        <div class="workflow-step">
+            <h3>Step 3: 専門研究へ</h3>
+            <ol>
+                <li><b>論文調査</b>: 関連分野の最新論文を読み、研究の最前線を把握する。</li>
+                <li><b>学会参加</b>: 下記の学会に参加し、自身の研究成果を発表したり、他の研究者と議論したりして研究を発展させる。</li>
+            </ol>
+        </div>
+    </section>
 
-        <section id="societies">
-            <h2>🤝 主要な関連学会リスト</h2>
-            <div class="lab-list">
-                 <ul>
-                    <li><a href="http://www.sgepss.org/" target="_blank"><b>地球電磁気・地球惑星圏学会 (SGEPSS)</b></a>日本におけるこの分野の主要学会。</li>
-                    <li><a href="https://www.asj.or.jp/" target="_blank"><b>日本天文学会</b></a>太陽物理や関連する宇宙プラズマのセッションも活発。</li>
-                    <li><a href="http://www.jspf.or.jp/" target="_blank"><b>プラズマ・核融合学会</b></a>宇宙プラズマに関連する基礎物理から応用まで幅広く扱う。</li>
-                    <li><a href="https://www.agu.org/" target="_blank"><b>米国地球物理学連合 (AGU)</b></a>世界最大級の地球科学関連の国際学会。</li>
-                    <li><a href="https://www.asiaoceania.org/" target="_blank"><b>アジア・オセアニア地球科学会 (AOGS)</b></a>アジア太平洋地域の地球科学者が集う国際学会。</li>
-                </ul>
-            </div>
-        </section>
-    </div>
+    <section id="websites">
+        <h2>💻 Webサイト</h2>
+        <div class="lab-list">
+            <ul>
+                <li>
+                    <b><a href="[https://solarphys.com/mhd/](https://solarphys.com/mhd/)" target="_blank">太陽の科学館</a></b>
+                    学生によってまとめられたMHDに関する資料。日本語で網羅的に書かれており参考になる。
+                </li>
+                <li>
+                    <b><a href="[https://github-nakasho.github.io/](https://github-nakasho.github.io/)" target="_blank">きゃるちゃん</a></b>
+                    東北大学天文学教室出身者によってまとめられたサイト。磁気回転不安定性(MRI)やパーカー不安定性について詳しく、降着円盤や原始惑星系円盤の研究に有用。
+                </li>
+                <li>
+                    <b><a href="[https://www.ds.nagoya-cu.ac.jp/~nose/06misc.html](https://www.ds.nagoya-cu.ac.jp/~nose/06misc.html)" target="_blank">能勢正仁さんのHP</a></b>
+                    「私家版・地球電磁気学ノートPDFファイルはこちら」からアクセス可能。電磁気学、地球電磁気の現象論からMHD、高エネルギープラズマの理論まで、広範なメモがまとめられている。
+                </li>
+            </ul>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 オーロラ・宇宙プラズマ学習サイト. All Rights Reserved.</p>
-    </footer>
+    <section id="spaceweather">
+        <h2>🌌 宇宙天気関連</h2>
+        <div class="book-item">
+            <h4>宇宙天気に関する報告書</h4>
+            <p>この分野の研究が社会とどう関わるかを知る上で重要な資料。STPP共有ドライブの「STPP_Common/報告書」に保存されているため、一読を推奨。</p>
+        </div>
+        <div class="book-item">
+            <h4><a href="[https://www2.nict.go.jp/spe/benchmark/](https://www2.nict.go.jp/spe/benchmark/)" target="_blank">科学提言のための宇宙天気現象の社会への影響評価</a></h4>
+            <p>新学術領域研究「PSTEP」の活動の一環としてまとめられた報告書。宇宙天気現象が社会へ与える影響について、定量的な評価や発生しうる事象について検討されている。</p>
+        </div>
+        <div class="book-item">
+            <h4><a href="[https://www.soumu.go.jp/menu_news/s-news/01tsushin05_02000047.html](https://www.soumu.go.jp/menu_news/s-news/01tsushin05_02000047.html)" target="_blank">宇宙天気予報の高度化の在り方に関する検討会報告書</a></h4>
+            <p>総務省の検討会による報告書。宇宙天気予報の観測・分析能力や対処のあり方など、今後の方向性についてまとめられている。</p>
+        </div>
+        <div class="book-item">
+            <h4><a href="[https://butadiene.github.io/SpaceWeatherForecastsInfomationTips/](https://butadiene.github.io/SpaceWeatherForecastsInfomationTips/)" target="_blank">宇宙天気予報関連情報まとめ</a></h4>
+            <p>宇宙天気予報を実際に行う際に必要な情報について、個人的にまとめられたメモ。</p>
+        </div>
+    </section>
 
+    <section id="societies">
+        <h2>🤝 主要な関連学会リスト</h2>
+        <div class="lab-list">
+             <ul>
+                <li><a href="[http://www.sgepss.org/](http://www.sgepss.org/)" target="_blank"><b>地球電磁気・地球惑星圏学会 (SGEPSS)</b></a>日本におけるこの分野の主要学会。</li>
+                <li><a href="[https://www.asj.or.jp/](https://www.asj.or.jp/)" target="_blank"><b>日本天文学会</b></a>太陽物理や関連する宇宙プラズマのセッションも活発。</li>
+                <li><a href="[http://www.jspf.or.jp/](http://www.jspf.or.jp/)" target="_blank"><b>プラズマ・核融合学会</b></a>宇宙プラズマに関連する基礎物理から応用まで幅広く扱う。</li>
+                <li><a href="[https://www.agu.org/](https://www.agu.org/)" target="_blank"><b>米国地球物理学連合 (AGU)</b></a>世界最大級の地球科学関連の国際学会。</li>
+                <li><a href="[https://www.asiaoceania.org/](https://www.asiaoceania.org/)" target="_blank"><b>アジア・オセアニア地球科学会 (AOGS)</b></a>アジア太平洋地域の地球科学者が集う国際学会。</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 オーロラ・宇宙プラズマ学習サイト. All Rights Reserved.</p>
+</footer>
 </body>
 </html>
