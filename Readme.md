@@ -1,6 +1,6 @@
 # オーロラ・宇宙プラズマ学習サイト
 
-[](https://butadiene.github.io/Aurora-SpacePlasma-website-jp/)
+[オーロラ・宇宙プラズマ学習サイト](https://butadiene.github.io/Aurora-SpacePlasma-website-jp/)
 
 オーロラや宇宙プラズマ物理学に興味を持つ学生（学部生〜大学院生）が、学習を進める上で役立つ情報を集約したウェブサイトです。
 
