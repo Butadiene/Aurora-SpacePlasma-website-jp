@@ -46,5 +46,7 @@ cd Aurora-SpacePlasma-website-jp
 # あとは index.html をブラウザで開く
 ```
 
-## 謝辞
-[SZ](https://x.com/seiji_zenitani) 教科書リストの追加情報提供
+## 謝辞(敬称略)
+- [齋藤幸碩](https://researchmap.jp/koseki_saito) 校正やアドバイス等
+
+- [SZ](https://x.com/seiji_zenitani) 教科書リストの [追加情報](https://x.com/seiji_zenitani/status/1936007278949245014)
