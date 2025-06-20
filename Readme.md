@@ -47,4 +47,4 @@ cd Aurora-SpacePlasma-website-jp
 ```
 
 ## 謝辞
-[SZ](https://x.com/seiji_zenitani) 教科書リストの情報提供
+[SZ](https://x.com/seiji_zenitani) 教科書リストの追加情報提供
