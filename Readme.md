@@ -45,3 +45,6 @@ cd Aurora-SpacePlasma-website-jp
 
 # あとは index.html をブラウザで開く
 ```
+
+## 謝辞
+[SZ](https://x.com/seiji_zenitani) 教科書リストの情報提供
